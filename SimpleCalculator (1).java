@@ -20,6 +20,7 @@ public class SimpleCalculator {
         num2 = scanner.nextDouble();
 
         switch (operator) {
+            //first step
             case '+':
                 result = num1 + num2;
                 System.out.println("Result: " + result);
